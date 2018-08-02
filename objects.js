@@ -1,6 +1,6 @@
 var playlist = {
-  drake: ["Jumpman", "What's My Name?", "Sacrifices"],
-  future: ["Percocet & Stripper Joint", "I'm Tha Plug"]
+  drake: "Jumpman",
+  future: "Percocet & Stripper Joint"
 };
 
 function updatePlaylist(playlist, artist, song){
@@ -13,6 +13,3 @@ function removeFromPlaylist(playlist, artist){
   return playlist
 }
 
-updatePlaylist(playlist,"drake", "schemin up")
-
-console.log(playlist)
